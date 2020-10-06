@@ -10,6 +10,7 @@ dependencies:
   flutter:
     sdk: flutter
   jailbase: ^0.0.1
+  cached_network_image: ^2.3.2+1
   cupertino_icons: ^1.0.0
 
 dev_dependencies:
