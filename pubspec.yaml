@@ -9,7 +9,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  jailbase: ^0.0.1
+  jailbase: ^0.0.2
   cached_network_image: ^2.3.2+1
   cupertino_icons: ^1.0.0
 

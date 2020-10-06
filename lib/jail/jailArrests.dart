@@ -20,7 +20,9 @@ class JailArrests extends StatelessWidget {
               child: CircularProgressIndicator(),
             );
 
-          return ListView.builder(
+          return GridView.builder(
+            gridDelegate:
+                SliverGridDelegateWithFixedCrossAxisCount(crossAxisCount: 1),
             itemCount: snapshot.data.length,
             itemBuilder: (context, index) {
               return ArrestWidget(
